@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class VisitFunctions {
+    static func createVisist(visitModel: VisitModel) {
+}
+
+    static func readVisit(){
+        
+}
+    static func updateTrip(visitModel: VisitModel){
+        
+}
+    static func deleteVisit(visitModel: VisitModel){
+        
+}
+}
