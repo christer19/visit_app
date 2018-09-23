@@ -12,6 +12,8 @@
 		40F43C6E21583CF800361661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F43C6C21583CF800361661 /* Main.storyboard */; };
 		40F43C7021583CFF00361661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F43C6F21583CFF00361661 /* Assets.xcassets */; };
 		40F43C7321583CFF00361661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F43C7121583CFF00361661 /* LaunchScreen.storyboard */; };
+		40F43C7D2158405D00361661 /* SwiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F43C7C2158405D00361661 /* SwiftModel.swift */; };
+		40F43C7F2158407400361661 /* VisitFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F43C7E2158407400361661 /* VisitFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		40F43C6F21583CFF00361661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40F43C7221583CFF00361661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40F43C7421583CFF00361661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F43C7C2158405D00361661 /* SwiftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftModel.swift; sourceTree = "<group>"; };
+		40F43C7E2158407400361661 /* VisitFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		40F43C6721583CF800361661 /* myvisits */ = {
 			isa = PBXGroup;
 			children = (
+				40F43C7A21583FEA00361661 /* Model */,
 				40F43C6821583CF800361661 /* AppDelegate.swift */,
 				40F43C6A21583CF800361661 /* ViewController.swift */,
 				40F43C6C21583CF800361661 /* Main.storyboard */,
@@ -62,6 +67,23 @@
 				40F43C7421583CFF00361661 /* Info.plist */,
 			);
 			path = myvisits;
+			sourceTree = "<group>";
+		};
+		40F43C7A21583FEA00361661 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40F43C7B2158400D00361661 /* Visits */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40F43C7B2158400D00361661 /* Visits */ = {
+			isa = PBXGroup;
+			children = (
+				40F43C7C2158405D00361661 /* SwiftModel.swift */,
+				40F43C7E2158407400361661 /* VisitFunctions.swift */,
+			);
+			path = Visits;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				40F43C6B21583CF800361661 /* ViewController.swift in Sources */,
+				40F43C7D2158405D00361661 /* SwiftModel.swift in Sources */,
 				40F43C6921583CF800361661 /* AppDelegate.swift in Sources */,
+				40F43C7F2158407400361661 /* VisitFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
